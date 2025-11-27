@@ -145,9 +145,6 @@ export const HomeScreen = () => {
         <ScreenWrapper>
             <View style={styles.header}>
                 <View>
-                    <Text style={[typography.caption1, { color: theme.colors.textSecondary, textTransform: 'uppercase', letterSpacing: 1 }]}>
-                        {new Date().toLocaleDateString(undefined, { weekday: 'long', month: 'long', day: 'numeric' })}
-                    </Text>
                     <Text style={[typography.largeTitle, { color: theme.colors.text }]}>My Classes</Text>
                 </View>
                 <TouchableOpacity onPress={toggleTheme} style={[styles.themeToggle, { backgroundColor: theme.colors.card }]}>
